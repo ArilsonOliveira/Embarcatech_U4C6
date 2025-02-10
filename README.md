@@ -4,7 +4,7 @@ Este repositório contém o código-fonte de um projeto desenvolvido para a plac
 
 # Link do Vídeo
 
-Link do video: <   > 
+Link do video: <https://drive.google.com/file/d/1FJK4Ya6V3o3lhQ-c3PMvQ03f0VB6Vtql/view?usp=sharing> 
 
 
 # 📌  Funcionalidades
