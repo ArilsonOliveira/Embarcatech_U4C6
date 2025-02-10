@@ -46,7 +46,7 @@ pico_enable_stdio_usb(U4C6 1)
 
 pico_generate_pio_header(U4C6 ${CMAKE_CURRENT_LIST_DIR}/Embarcatech_U4C6.pio)
 
-target_sources(U4C6 PRIVATE Embarcatech_U4C6.c)
+target_sources(U4C6 PRIVATE U4C6.c)
 
 # Add the standard library to the build
 target_link_libraries(U4C6
