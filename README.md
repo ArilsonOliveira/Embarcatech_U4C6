@@ -7,7 +7,7 @@ Este repositório contém o código-fonte de um projeto desenvolvido para a plac
 Link do video: <   > 
 
 
-📌 # Funcionalidades
+# 📌  Funcionalidades
 
 - Recebimento de caracteres via UART e exibição no display SSD1306.
 
@@ -17,7 +17,7 @@ Link do video: <   >
 
 - Atualização dinâmica do display com os caracteres recebidos.
 
-🛠️ # Dependências
+#  🛠️ Dependências
 
 Para compilar e rodar este projeto, você precisará de:
 
@@ -25,7 +25,7 @@ Para compilar e rodar este projeto, você precisará de:
 
 - Bibliotecas para SSD1306 e WS2812
 
-🔧 # Configuração e Compilação
+# 🔧 Configuração e Compilação
 
 - Clone este repositório:
 
@@ -45,7 +45,7 @@ Envie o firmware para o RP2040:
 
 `picotool load nome-do-firmware.uf2`
 
-🖥️ # Uso
+# 🖥️  Uso
 
 - Digite um caractere via UART no Serial Monitor do Visual Studio Code e ele será exibido no display.
 
@@ -56,12 +56,19 @@ Envie o firmware para o RP2040:
 📂 # Estrutura do Código
 
 /seu-repositorio
-│── inc           
-│── │── font.h        
+
+│── inc   
+
+│── │── font.h    
+
 │── │── ssd1306.c
+
 │── │── ssd1306.h 
+
 │──Embarcatech_U4C6.pio
+
 │── CMakeLists.txt  
+
 │── README.md       
 
 # Autor
