@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "pico/stdlib.h"
-#include "pico/stdlib.h"
+#include "pico/stdlib.h"        // bibliotecas do programa
 #include "hardware/timer.h"
 #include "hardware/pio.h"
 #include "hardware/clocks.h"
@@ -31,9 +31,9 @@
 // I2C
 #define I2C_ID i2c1
 #define I2C_ADDR 0x3C  // Endereço do dispositivo i2c
-#define I2C_FREQ 100000 // 100kHz
+#define I2C_FREQ 400 * 1000 // 400kHz
 
-// Variáveis globais. Não devem ser alteradas manualmente!
+// Variáveis globais. 
 static volatile int num = 0; // Altera o número exibido na matriz de LEDS
 static volatile uint32_t last_time = 0; // Armazena o tempo em microssegundos
 ssd1306_t ssd; // Inicializa a estrutura do display ssd1306
